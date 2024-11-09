@@ -12,5 +12,11 @@
 }
 
 @layer components {
+
+    .menu-item {
+
+        @apply text-sm font-medium text-black relative cursor-pointer after:h-[3px] after:text-black after:absolute after:left-0 after:rounded after:-translate-x-11 after:opacity-0 after:transition-all after:hover:translate-x-0 after:hover:opacity-100;
+    }
+
     
 }

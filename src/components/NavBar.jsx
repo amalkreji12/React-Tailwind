@@ -24,8 +24,10 @@ function Navbar() {
                     </li>
                 </ul>
 
-                <button>Contact Us</button>
-                <button><IoMdContact /></button>
+                <button className='hidden h-10 text-blue-600 text-white text-sm px-6 rounded hover:bg-blue-200 hover:text-blue-600 md:block'>Contact Us</button>
+                <button className='w-11 h-11 bg-blue-100 text-2xl text-primary flex items-center justify-center rounded md:hidden  z-50'>
+                    <IoMdContact />
+                </button>
             </div>
         </nav>
     </div>
